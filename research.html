@@ -3,15 +3,32 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-<title>Research | Excellence Institute of Technology</title>
+    <title>
 
-<link rel="stylesheet" href="style.css">
+        Research | Excellence Institute of Technology
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </title>
+
+    <link rel="stylesheet"
+        href="style.css">
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
@@ -24,10 +41,9 @@
 
 <div class="logo">
 
-EIT
+Excellence IT
 
 </div>
-
 
 <ul>
 
@@ -35,17 +51,29 @@ EIT
 
 <li><a href="about.html">About</a></li>
 
-<li><a href="academics.html">Academics</a></li>
-
-<li><a href="campuslife.html">Campus Life</a></li>
-
-<li><a href="research.html">Research</a></li>
-
 <li><a href="admission.html">Admission</a></li>
+
+<li><a href="research.html" class="active">
+
+Research
+
+</a></li>
+
+<li><a href="alumni.html">Alumni</a></li>
+
+<li><a href="placement.html">Placement</a></li>
+
+<li><a href="blog.html">Blog</a></li>
 
 <li><a href="contact.html">Contact</a></li>
 
 </ul>
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
 
 </nav>
 
@@ -53,11 +81,15 @@ EIT
 
 
 
+
+
 <!-- HERO -->
 
-<header style="height:60vh;">
+<section class="research-hero">
 
-<div class="hero">
+<div class="overlay"></div>
+
+<div class="hero-text">
 
 <h1>
 
@@ -67,13 +99,17 @@ Research & Innovation
 
 <p>
 
-Exploring Ideas, Creating Innovations
+Creating technologies that shape the future
+
+through innovation and discovery.
 
 </p>
 
 </div>
 
-</header>
+</section>
+
+
 
 
 
@@ -82,25 +118,25 @@ Exploring Ideas, Creating Innovations
 
 <!-- INTRO -->
 
-<section>
+<section class="research-intro">
 
-<h2>
+<h1>
 
-Research at EIT
+Research at Excellence IT
 
-</h2>
+</h1>
 
 <p>
 
-Excellence Institute of Technology promotes a strong research culture
+Excellence Institute of Technology encourages
 
-that encourages innovation, creativity and interdisciplinary learning.
+innovative research across multiple disciplines.
 
-Faculty members and students actively participate in funded projects,
+Our faculty and students work together on
 
-international conferences and scientific publications.
+cutting-edge technologies that solve
 
-Our goal is to solve real-world challenges through research and technology.
+real-world challenges.
 
 </p>
 
@@ -112,27 +148,32 @@ Our goal is to solve real-world challenges through research and technology.
 
 
 
-<!-- RESEARCH CENTERS -->
 
-<section>
+<!-- RESEARCH AREAS -->
+
+<section class="research-areas">
+
+<h1>
+
+Research Areas
+
+</h1>
+
+
+<div class="research-container">
+
+
+
+
+<div class="research-card">
+
+<i class="fa-solid fa-robot"></i>
 
 <h2>
 
-Research Centers
+Artificial Intelligence
 
 </h2>
-
-
-<div class="card-container">
-
-
-<div class="card">
-
-<h3>
-
-Artificial Intelligence Center
-
-</h3>
 
 <p>
 
@@ -140,9 +181,7 @@ Research in Machine Learning,
 
 Deep Learning,
 
-Natural Language Processing
-
-and Computer Vision.
+Computer Vision and NLP.
 
 </p>
 
@@ -151,23 +190,25 @@ and Computer Vision.
 
 
 
-<div class="card">
 
-<h3>
 
-IoT & Embedded Systems
+<div class="research-card">
 
-</h3>
+<i class="fa-solid fa-microchip"></i>
+
+<h2>
+
+Robotics
+
+</h2>
 
 <p>
 
-Smart Devices,
+Autonomous systems,
 
-Automation,
+Industrial robotics
 
-Embedded Systems
-
-and Wireless Communication.
+and intelligent machines.
 
 </p>
 
@@ -177,27 +218,163 @@ and Wireless Communication.
 
 
 
-<div class="card">
 
-<h3>
 
-Renewable Energy
+<div class="research-card">
 
-</h3>
+<i class="fa-solid fa-dna"></i>
+
+<h2>
+
+Biotechnology
+
+</h2>
 
 <p>
 
-Solar Energy,
+Advanced research in
 
-Wind Energy,
+genetics,
 
-Electric Vehicles
-
-and Sustainable Technologies.
+bioinformatics and healthcare.
 
 </p>
 
 </div>
+
+
+
+
+
+
+
+<div class="research-card">
+
+<i class="fa-solid fa-earth-asia"></i>
+
+<h2>
+
+Sustainability
+
+</h2>
+
+<p>
+
+Renewable energy,
+
+green technology and
+
+environmental research.
+
+</p>
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- LABS -->
+
+<section class="labs">
+
+<h1>
+
+Research Laboratories
+
+</h1>
+
+
+<div class="lab-container">
+
+
+
+<div class="lab">
+
+<img src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=1000&q=80">
+
+
+<h2>
+
+AI Lab
+
+</h2>
+
+<p>
+
+State-of-the-art facility for
+
+Artificial Intelligence research.
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="lab">
+
+<img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=80">
+
+
+<h2>
+
+Robotics Lab
+
+</h2>
+
+<p>
+
+Developing intelligent robots
+
+and automation systems.
+
+</p>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="lab">
+
+<img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1000&q=80">
+
+
+<h2>
+
+Biotech Lab
+
+</h2>
+
+<p>
+
+Advanced research in
+
+life sciences and healthcare.
+
+</p>
+
+</div>
+
+
 
 </div>
 
@@ -212,68 +389,28 @@ and Sustainable Technologies.
 
 <!-- PUBLICATIONS -->
 
-<section>
+<section class="publications">
 
-<h2>
+<h1>
 
-Research Publications
+Recent Publications
 
-</h2>
-
-<p>
-
-Faculty and research scholars have published
-
-more than 500 papers in
-
-Scopus indexed journals,
-
-SCI journals
-
-and international conferences.
-
-The institution encourages high quality publications
-
-through research grants
-
-and collaboration programs.
-
-</p>
-
-</section>
+</h1>
 
 
-
-
-
-
-
-
-<!-- PATENTS -->
-
-<section>
-
-<h2>
-
-Patents & Innovations
-
-</h2>
-
-
-<div class="card-container">
-
-
-<div class="card">
+<div class="publication-card">
 
 <h3>
 
-25+
+AI Driven Healthcare Systems
 
 </h3>
 
 <p>
 
-Patents Filed
+Published in International Journal
+
+of Artificial Intelligence.
 
 </p>
 
@@ -282,17 +419,18 @@ Patents Filed
 
 
 
-<div class="card">
+
+<div class="publication-card">
 
 <h3>
 
-12
+Robotics in Smart Manufacturing
 
 </h3>
 
 <p>
 
-Patents Granted
+Published in Engineering Research Review.
 
 </p>
 
@@ -301,150 +439,24 @@ Patents Granted
 
 
 
-<div class="card">
+
+
+<div class="publication-card">
 
 <h3>
 
-50+
+Green Energy Technologies
 
 </h3>
 
 <p>
 
-Innovative Student Projects
+Published in Sustainable Engineering Journal.
 
 </p>
 
 </div>
 
-</div>
-
-</section>
-
-
-
-
-
-
-
-
-<!-- INDUSTRY COLLAB -->
-
-<section>
-
-<h2>
-
-Industry Collaboration
-
-</h2>
-
-<p>
-
-EIT collaborates with leading industries
-
-to conduct joint research projects,
-
-internships,
-
-faculty development programs
-
-and industrial training.
-
-These collaborations bridge the gap
-
-between academic knowledge
-
-and industrial requirements.
-
-</p>
-
-</section>
-
-
-
-
-
-
-
-
-<!-- INNOVATION CELL -->
-
-<section>
-
-<h2>
-
-Innovation & Startup Cell
-
-</h2>
-
-<div class="card-container">
-
-
-<div class="card">
-
-<h3>
-
-Startup Support
-
-</h3>
-
-<p>
-
-Mentoring and funding support
-
-for innovative student startups.
-
-</p>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h3>
-
-Hackathons
-
-</h3>
-
-<p>
-
-Regular hackathons
-
-and innovation challenges
-
-to encourage creativity.
-
-</p>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h3>
-
-Incubation Center
-
-</h3>
-
-<p>
-
-Infrastructure and expert guidance
-
-for transforming ideas
-
-into successful businesses.
-
-</p>
-
-</div>
-
-</div>
 
 </section>
 
@@ -457,24 +469,15 @@ into successful businesses.
 
 <!-- ACHIEVEMENTS -->
 
-<section>
+<section class="stats">
+
+<div class="card">
 
 <h2>
 
-Research Achievements
+300+
 
 </h2>
-
-
-<div class="stats">
-
-<div>
-
-<h1>
-
-500+
-
-</h1>
 
 <p>
 
@@ -486,17 +489,18 @@ Research Papers
 
 
 
-<div>
 
-<h1>
+<div class="card">
 
-25+
+<h2>
 
-</h1>
+50+
+
+</h2>
 
 <p>
 
-Patents
+Patents Filed
 
 </p>
 
@@ -505,13 +509,34 @@ Patents
 
 
 
-<div>
 
-<h1>
+<div class="card">
 
-15 Cr
+<h2>
 
-</h1>
+20+
+
+</h2>
+
+<p>
+
+Research Labs
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>
+
+₹10Cr+
+
+</h2>
 
 <p>
 
@@ -521,10 +546,33 @@ Research Grants
 
 </div>
 
+</section>
 
-</div>
+
+
+
+
+
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h1>
+
+Join Our Research Community
+
+</h1>
+
+<a href="admission.html">
+
+Apply Now
+
+</a>
 
 </section>
+
 
 
 
@@ -539,48 +587,43 @@ Research Grants
 
 <div class="footer-content">
 
-<h3>
+<h2>
 
 Excellence Institute of Technology
 
-</h3>
+</h2>
 
 <p>
 
-123 Knowledge Park,
+Empowering Minds,
 
-OMR Road,
-
-Chennai - 600127
+Creating Futures
 
 </p>
 
-<p>
 
-Phone :
+<div class="social">
 
-+91 98765 43210
+<i class="fab fa-facebook"></i>
 
-</p>
+<i class="fab fa-instagram"></i>
 
-<p>
+<i class="fab fa-linkedin"></i>
 
-Email :
-
-info@eitcollege.edu
-
-</p>
+<i class="fab fa-youtube"></i>
 
 </div>
 
 
-<p class="copyright">
+<p>
 
-© 2026 Excellence Institute of Technology.
+© 2026 Excellence Institute of Technology
 
 All Rights Reserved.
 
 </p>
+
+</div>
 
 </footer>
 
